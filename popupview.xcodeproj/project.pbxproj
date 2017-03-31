@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D79A29C1E8D019A0062A987 /* TableViewXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79A29B1E8D019A0062A987 /* TableViewXib.swift */; };
+		1D79A2A31E8D04BB0062A987 /* firstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79A2A11E8D04BB0062A987 /* firstTableViewCell.swift */; };
+		1D79A2A41E8D04BB0062A987 /* firstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D79A2A21E8D04BB0062A987 /* firstTableViewCell.xib */; };
+		1DB0DCDC1E8E254900CE3FE2 /* enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB0DCDB1E8E254900CE3FE2 /* enumeration.swift */; };
 		1DB8E2E01E8CE47B00E1B878 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E2DF1E8CE47B00E1B878 /* AppDelegate.swift */; };
 		1DB8E2E21E8CE47B00E1B878 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E2E11E8CE47B00E1B878 /* ViewController.swift */; };
 		1DB8E2E51E8CE47B00E1B878 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB8E2E31E8CE47B00E1B878 /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		1DB8E2ED1E8CE47B00E1B878 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DB8E2EB1E8CE47B00E1B878 /* LaunchScreen.storyboard */; };
 		1DB8E2F81E8CE47B00E1B878 /* popupviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E2F71E8CE47B00E1B878 /* popupviewTests.swift */; };
 		1DB8E3031E8CE47B00E1B878 /* popupviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB8E3021E8CE47B00E1B878 /* popupviewUITests.swift */; };
+		1DB8E3111E8CED5000E1B878 /* TableViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB8E3101E8CED5000E1B878 /* TableViewXib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D79A29B1E8D019A0062A987 /* TableViewXib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewXib.swift; sourceTree = "<group>"; };
+		1D79A2A11E8D04BB0062A987 /* firstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstTableViewCell.swift; sourceTree = "<group>"; };
+		1D79A2A21E8D04BB0062A987 /* firstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = firstTableViewCell.xib; sourceTree = "<group>"; };
+		1DB0DCDB1E8E254900CE3FE2 /* enumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumeration.swift; sourceTree = "<group>"; };
 		1DB8E2DC1E8CE47B00E1B878 /* popupview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popupview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB8E2DF1E8CE47B00E1B878 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DB8E2E11E8CE47B00E1B878 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		1DB8E2FE1E8CE47B00E1B878 /* popupviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popupviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB8E3021E8CE47B00E1B878 /* popupviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupviewUITests.swift; sourceTree = "<group>"; };
 		1DB8E3041E8CE47B00E1B878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB8E3101E8CED5000E1B878 /* TableViewXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewXib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D79A2A91E8D04D70062A987 /* FirstTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				1D79A29B1E8D019A0062A987 /* TableViewXib.swift */,
+				1DB8E3101E8CED5000E1B878 /* TableViewXib.xib */,
+				1D79A2A11E8D04BB0062A987 /* firstTableViewCell.swift */,
+				1D79A2A21E8D04BB0062A987 /* firstTableViewCell.xib */,
+			);
+			name = FirstTableCell;
+			sourceTree = "<group>";
+		};
 		1DB8E2D31E8CE47B00E1B878 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +120,15 @@
 		1DB8E2DE1E8CE47B00E1B878 /* popupview */ = {
 			isa = PBXGroup;
 			children = (
-				1DB8E2DF1E8CE47B00E1B878 /* AppDelegate.swift */,
 				1DB8E2E11E8CE47B00E1B878 /* ViewController.swift */,
+				1D79A2A91E8D04D70062A987 /* FirstTableCell */,
+				1DB8E2DF1E8CE47B00E1B878 /* AppDelegate.swift */,
 				1DB8E2E31E8CE47B00E1B878 /* Main.storyboard */,
 				1DB8E2E91E8CE47B00E1B878 /* Assets.xcassets */,
 				1DB8E2EB1E8CE47B00E1B878 /* LaunchScreen.storyboard */,
 				1DB8E2EE1E8CE47B00E1B878 /* Info.plist */,
 				1DB8E2E61E8CE47B00E1B878 /* popupview.xcdatamodeld */,
+				1DB0DCDB1E8E254900CE3FE2 /* enumeration.swift */,
 			);
 			path = popupview;
 			sourceTree = "<group>";
@@ -236,8 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB8E2ED1E8CE47B00E1B878 /* LaunchScreen.storyboard in Resources */,
+				1D79A2A41E8D04BB0062A987 /* firstTableViewCell.xib in Resources */,
 				1DB8E2EA1E8CE47B00E1B878 /* Assets.xcassets in Resources */,
 				1DB8E2E51E8CE47B00E1B878 /* Main.storyboard in Resources */,
+				1DB8E3111E8CED5000E1B878 /* TableViewXib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D79A29C1E8D019A0062A987 /* TableViewXib.swift in Sources */,
 				1DB8E2E21E8CE47B00E1B878 /* ViewController.swift in Sources */,
+				1D79A2A31E8D04BB0062A987 /* firstTableViewCell.swift in Sources */,
+				1DB0DCDC1E8E254900CE3FE2 /* enumeration.swift in Sources */,
 				1DB8E2E81E8CE47B00E1B878 /* popupview.xcdatamodeld in Sources */,
 				1DB8E2E01E8CE47B00E1B878 /* AppDelegate.swift in Sources */,
 			);
@@ -417,10 +445,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = popupview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.popupview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -429,10 +459,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = popupview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.popupview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -509,6 +541,7 @@
 				1DB8E3091E8CE47B00E1B878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DB8E30A1E8CE47B00E1B878 /* Build configuration list for PBXNativeTarget "popupviewTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +550,7 @@
 				1DB8E30C1E8CE47B00E1B878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DB8E30D1E8CE47B00E1B878 /* Build configuration list for PBXNativeTarget "popupviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +559,7 @@
 				1DB8E30F1E8CE47B00E1B878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
